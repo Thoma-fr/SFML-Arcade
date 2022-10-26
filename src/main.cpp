@@ -1,13 +1,9 @@
 #include <iostream>
-#include<SFML/Graphics.hpp>
-#include<SFML/System.hpp>
-#include<SFML/Window.hpp>
-#include<SFML/Audio.hpp>
-#include<SFML/Network.hpp>
+#include "Game.h"
 
 int main()
 {
-	sf::RenderWindow window(sf::VideoMode(640, 480), "sfml projet",sf::Style::Titlebar| sf::Style::Close);
+	sf::RenderWindow window(sf::VideoMode(800, 600), "sfml projet",sf::Style::Titlebar| sf::Style::Close);
 	sf::Event ev;
 
 	while (window.isOpen())

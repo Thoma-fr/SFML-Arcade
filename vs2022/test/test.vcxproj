@@ -13,7 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{9145EEE1-ADD4-4868-9B0F-9EBC16654007}</ProjectGuid>
     <RootNamespace>test</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'" Label="Configuration">
@@ -42,7 +42,7 @@
     <TargetName>test</TargetName>
     <TargetExt>.exe</TargetExt>
     <LinkIncremental>true</LinkIncremental>
-    <ExternalIncludePath>C:\Users\Toto\AppData\Local\.xmake\packages\s\sfml\2.5.1\9a922774ed0f414bb9efd13bbcfe36fe\include;;;</ExternalIncludePath>
+    <ExternalIncludePath>C:\Users\frfro\AppData\Local\.xmake\packages\s\sfml\2.5.1\9a922774ed0f414bb9efd13bbcfe36fe\include;;;</ExternalIncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'">
     <OutDir>..\..\build\windows\x64\release\</OutDir>
@@ -50,19 +50,19 @@
     <TargetName>test</TargetName>
     <TargetExt>.exe</TargetExt>
     <LinkIncremental>true</LinkIncremental>
-    <ExternalIncludePath>C:\Users\Toto\AppData\Local\.xmake\packages\s\sfml\2.5.1\9a922774ed0f414bb9efd13bbcfe36fe\include;;;</ExternalIncludePath>
+    <ExternalIncludePath>C:\Users\frfro\AppData\Local\.xmake\packages\s\sfml\2.5.1\9a922774ed0f414bb9efd13bbcfe36fe\include;;;</ExternalIncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'" Label="Debugger">
     <LocalDebuggerWorkingDirectory>..\..\build\windows\x64\debug</LocalDebuggerWorkingDirectory>
-    <LocalDebuggerEnvironment>PATH=C:\Users\Toto\AppData\Local\.xmake\packages\s\sfml\2.5.1\9a922774ed0f414bb9efd13bbcfe36fe\lib;C:\Users\Toto\AppData\Local\.xmake\packages\s\sfml\2.5.1\9a922774ed0f414bb9efd13bbcfe36fe\bin;C:\Users\Toto\AppData\Local\.xmake\packages\c\cmake\3.24.2\116af62207e241d1b5a204a9bae22dd2\bin;$([System.Environment]::GetEnvironmentVariable('PATH'));%(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <LocalDebuggerEnvironment>PATH=C:\Users\frfro\AppData\Local\.xmake\packages\s\sfml\2.5.1\9a922774ed0f414bb9efd13bbcfe36fe\lib;C:\Users\frfro\AppData\Local\.xmake\packages\s\sfml\2.5.1\9a922774ed0f414bb9efd13bbcfe36fe\bin;C:\Users\frfro\AppData\Local\.xmake\packages\c\cmake\3.24.2\116af62207e241d1b5a204a9bae22dd2\bin;$([System.Environment]::GetEnvironmentVariable('PATH'));%(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'" Label="Debugger">
     <LocalDebuggerWorkingDirectory>..\..\build\windows\x64\release</LocalDebuggerWorkingDirectory>
-    <LocalDebuggerEnvironment>PATH=C:\Users\Toto\AppData\Local\.xmake\packages\s\sfml\2.5.1\9a922774ed0f414bb9efd13bbcfe36fe\lib;C:\Users\Toto\AppData\Local\.xmake\packages\s\sfml\2.5.1\9a922774ed0f414bb9efd13bbcfe36fe\bin;C:\Users\Toto\AppData\Local\.xmake\packages\c\cmake\3.24.2\116af62207e241d1b5a204a9bae22dd2\bin;$([System.Environment]::GetEnvironmentVariable('PATH'));%(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <LocalDebuggerEnvironment>PATH=C:\Users\frfro\AppData\Local\.xmake\packages\s\sfml\2.5.1\9a922774ed0f414bb9efd13bbcfe36fe\lib;C:\Users\frfro\AppData\Local\.xmake\packages\s\sfml\2.5.1\9a922774ed0f414bb9efd13bbcfe36fe\bin;C:\Users\frfro\AppData\Local\.xmake\packages\c\cmake\3.24.2\116af62207e241d1b5a204a9bae22dd2\bin;$([System.Environment]::GetEnvironmentVariable('PATH'));%(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'">
     <Link>
-      <AdditionalLibraryDirectories>C:\Users\Toto\AppData\Local\.xmake\packages\s\sfml\2.5.1\9a922774ed0f414bb9efd13bbcfe36fe\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\frfro\AppData\Local\.xmake\packages\s\sfml\2.5.1\9a922774ed0f414bb9efd13bbcfe36fe\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>sfml-graphics-s.lib;freetype.lib;sfml-window-s.lib;sfml-audio-s.lib;openal32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;sfml-network-s.lib;sfml-main.lib;sfml-system-s.lib;opengl32.lib;gdi32.lib;user32.lib;advapi32.lib;ws2_32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalOptions>-dynamicbase -nxcompat %(AdditionalOptions)</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -87,7 +87,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'">
     <Link>
-      <AdditionalLibraryDirectories>C:\Users\Toto\AppData\Local\.xmake\packages\s\sfml\2.5.1\9a922774ed0f414bb9efd13bbcfe36fe\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\frfro\AppData\Local\.xmake\packages\s\sfml\2.5.1\9a922774ed0f414bb9efd13bbcfe36fe\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>sfml-graphics-s.lib;freetype.lib;sfml-window-s.lib;sfml-audio-s.lib;openal32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;sfml-network-s.lib;sfml-main.lib;sfml-system-s.lib;opengl32.lib;gdi32.lib;user32.lib;advapi32.lib;ws2_32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalOptions>-dynamicbase -nxcompat /opt:ref /opt:icf %(AdditionalOptions)</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -112,6 +112,8 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\src\Game.cpp">
+    </ClCompile>
     <ClCompile Include="..\..\src\main.cpp">
     </ClCompile>
   </ItemGroup>
