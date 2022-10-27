@@ -9,14 +9,19 @@
 class Game
 {
 private:
-    sf::RenderWindow window;
-
+    sf::RenderWindow* window;
+	sf::VideoMode videoMode;
+	sf::Event ev;
+	//private functions
 	void initVariables();
 	void initWindow();
 public:
 	Game();
 	virtual ~Game();
+	//accessors
+	const bool running() const;
 
+	void pollEvents();
 	void update();
 	void render();
 };
