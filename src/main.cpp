@@ -1,9 +1,11 @@
-#include <iostream>
+
 #include "Game.h"
 
 int main()
 {
 	//Init GameEngine
+	std::srand(static_cast<unsigned>(time(NULL)));
+
 	Game game;
 
 	while (game.running())
